@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>PoE SSF Atlas Tool</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="background">
+        <img id="atlas" src="http://web.poecdn.com/image/Art/2DArt/Atlas/Atlas.png">
+        
+        <!-- APPENDED HTML
+        MAP ICON STRUCTURE
+            <div id="Map Name">
+                <img src="Image Source URL">
+                <p class="mapname">Map Name</p>
+            </div>
+
+        CSS STRUCTURE
+            #Map Name {
+                left: %;
+                top: %;
+            }
+        -->
+    </div>
+    <div class="header">
+        <button id="clearall">Uncomplete All Maps</button>
+        <input id="search" type="text" placeholder="Map name or tier">
+        <form id="form">
+            <input id="user" type="text" placeholder="Username">
+            <input id="pass" type="text" placeholder="Password">
+            <button id="submit">Log In</button>
+        </form>
+    </div>
+    <div class="runmaps">
+        <p class="text">Maps to Run</p>
+        <!-- images of maps with $('runmaps').append-->
+    </div>
+    <div class="findmaps">
+        <p class="text">Maps to Find</p>
+        <!-- images of maps -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.panzoom.min.js"></script>
+</body>
+</html>

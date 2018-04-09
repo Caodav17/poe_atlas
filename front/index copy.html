@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>PoE SSF Atlas Tool</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="background">
+        <img id="atlas" src="http://web.poecdn.com/image/Art/2DArt/Atlas/Atlas.png">
+        <div class="maps">
+            <img id="dungeon" src="https://d1u5p3l4wpay3k.cloudfront.net/pathofexile_gamepedia/7/72/Dungeon_Map_%28War_for_the_Atlas%29_inventory_icon.png">
+            <div id="mapname">Underground Sea</div>
+        </div>
+        <div id="test">
+        </div>
+    </div>
+    <div class="header">
+        <button id="clearall">Uncomplete All Maps</button>
+        <input id="search" type="text" placeholder="Map name or tier">
+        <form id="form">
+            <input id="user" type="text" placeholder="Username">
+            <input id="pass" type="text" placeholder="Password">
+            <button id="submit">Log In</button>
+        </form>
+    </div>
+    <div class="runmaps">
+        <p class="text">Maps to Run</p>
+        <!-- images of maps with $('runmaps').append-->
+    </div>
+    <div class="findmaps">
+        <p class="text">Maps to Find</p>
+        <button id="foundmaps">Found All!</button>
+        <!-- images of maps -->
+        <span id="torun"></span>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.panzoom.min.js"></script>
+</body>
+</html>
