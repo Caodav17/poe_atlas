@@ -60,7 +60,7 @@ $(document).ready(function() {
     })
 })
 
-//GET DATA FROM SERVER
+//GET DATA FROM mongodb
 //maps.forEach()... map.done = SERVER_VAL
 
 //tier {indexes, true/false}
